@@ -1,0 +1,13 @@
+$kind: http-request
+name: http://localhost:3000/api/notes
+description: ""
+url: http://localhost:3000/api/notes
+method: POST
+body:
+  type: json
+  content: '{"candidateId":1,"content":"Test 1"}'
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0del}}"
+order: 5000

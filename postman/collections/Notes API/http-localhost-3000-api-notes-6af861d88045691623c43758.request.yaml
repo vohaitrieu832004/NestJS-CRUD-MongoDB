@@ -1,0 +1,10 @@
+$kind: http-request
+name: http://localhost:3000/api/notes/6af861d88045691623c43758
+description: ""
+url: http://localhost:3000/api/notes/6af861d88045691623c43758
+method: DELETE
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0del}}"
+order: 7000

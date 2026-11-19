@@ -1,0 +1,13 @@
+$kind: http-request
+name: http://localhost:3000/api/notes
+description: ""
+url: http://localhost:3000/api/notes?page=2&limit=2
+method: GET
+queryParams:
+  page: "2"
+  limit: "2"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0del}}"
+order: 4000

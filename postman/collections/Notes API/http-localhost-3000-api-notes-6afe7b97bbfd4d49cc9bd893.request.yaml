@@ -1,0 +1,17 @@
+$kind: http-request
+name: http://localhost:3000/api/notes/6afe7b97bbfd4d49cc9bd893
+description: ""
+url: http://localhost:3000/api/notes/6afe7b97bbfd4d49cc9bd893
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \    \"content\": \"Test Postman\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0del}}"
+order: 6000
